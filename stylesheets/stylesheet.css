@@ -53,11 +53,12 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background: #D1D1D1;
+  background: #2B1A41 url('../images/bartman.png') top left no-repeat;
+  background-attachment:fixed;
 }
 
 a {
-  color: #63a52a;
+  color: #0F993D;
   text-decoration: none;
   -webkit-transition: color ease-in-out 0.3s;
 }
@@ -74,6 +75,7 @@ h1.title {
   font-style: italic;
   font-family:Georgia, serif;
   text-align: center;
+  color:#C96F87;
 }
 
 .wrapper {
@@ -82,9 +84,9 @@ h1.title {
 }
 
 #container {
-  border: 1px solid #2a2a2a;
-  background: #ddd url(../images/pattern.png);
-  box-shadow: 0 0 5px #b1b1b1;
+  border: 1px solid rgba(0,0,0,0.5);
+  background: #392652 url(../images/skelatal_weave.fw.png);
+  box-shadow: 0 4px 5px rgba(0,0,0,0.4);
 }
 
 p.tagline {
@@ -288,6 +290,41 @@ a.download-button {
   margin-left: 10px;
 }
 
+
+a.download-button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #d197fe;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
+  box-shadow:inset 0px 1px 0px 0px #d197fe;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a53df6), color-stop(1, #7c16cb) );
+  background:-moz-linear-gradient( center top, #a53df6 5%, #7c16cb 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6', endColorstr='#7c16cb');
+  background-color:#a53df6;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #9c33ed;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #7d15cd;
+}
+
+a.download-button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7c16cb), color-stop(1, #a53df6) );
+  background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb', endColorstr='#a53df6');
+  background-color:#7c16cb;
+}
+
+a.download-button:active {
+  position:relative;
+  top:1px;
+}
+
 a.download-button span {
   background-position: 10px 5px;
   width: auto;
@@ -317,10 +354,11 @@ footer .creds small {
   font-size: 10px;
   text-align: right;
   margin-left: 15px;
+  color:#E1E67E;
 }
 
 footer .owner .avatar {
-  background-color: #666;
+  background-color: transparent;
   display: block;
   margin: -19px 10px 0 0;
   width: 60px;
@@ -329,7 +367,7 @@ footer .owner .avatar {
 
 footer .owner img {
   display: block;
-  border: 1px solid #2a2a2a;
+  border: none;
   margin: 5px;
 }
 
@@ -398,7 +436,7 @@ footer .owner p a {
   line-height: 20px;
   box-shadow: inset 0 0 5px #000;
   word-wrap: break-word;
-  background-color:#3b3b3b;
+  background-color:#342445;
   color: #d6d6d6;
 }
 
@@ -410,7 +448,7 @@ footer .owner p a {
   display: block;
   text-align: right;
   box-shadow: none;
-  background-color:#2a2a2a;
+  background-color:#2B1A41;
   color: #d6d6d6;
 }
 
